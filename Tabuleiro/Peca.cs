@@ -20,6 +20,10 @@ namespace tabuleiro
         {
             this.QuantidadeDeMovimentos++;
         }
+        public void DecrementarQtdDeMovimentos()
+        {
+            this.QuantidadeDeMovimentos--;
+        }
 
         public bool ExisteMovimentosPossiveis()
         {
